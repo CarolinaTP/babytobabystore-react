@@ -13,72 +13,41 @@ export const products = [
   },
   {
     id: 2,
-    name: "Luxury Perfume",
-    price: 59.99,
+    name: "Osito de peluche",
+    price: "990.00 UY",
     image: conjunto2,
-    description: "Fragancia elegante"
+    description: "Apego seguro para bebés",
   },
   {
     id: 3,
-    name: "Eyeshadow Palette",
-    price: 24.99,
+    name: "Conjunto osito",
+    price: "2300 UY",
     image: conjunto3,
-    description: "Paleta profesional",
-    colors: ["Classic", "Nude"]
+    description: "Conjunto de ropa de lana suave, conformado por pantalón, buzo y gorro.",
+    colors: ["blanco", "beige"]
   },
   {
     id: 4,
-    name: "Foundation",
-    price: 34.99,
+    name: "Chupete de silicona",
+    price: "580 UY",
     image: lanilla,
-    description: "Base de maquillaje profesional",
-    colors: ["Light", "Medium", "Dark"]
+    description: "Chupete de silicona suave y seguro para bebés",
+    colors: ["Azul", "Beige", "Rosa"]
   },
   {
     id: 5,
-    name: "Blush Powder",
-    price: 18.99,
+    name: "Gorro en lanilla",
+    price: "520.00 UY",
     image: conjunto2,
-    description: "Polvo colorete duradero",
-    colors: ["Coral", "Rose", "Berry"]
+    description: "Gorro de lana suave para mantener la cabeza de tu bebé abrigada",
+    colors: ["Coral", "Rosa", "Gris"]
   },
   {
     id: 6,
-    name: "Mascara",
-    price: 16.99,
+    name: "Peluche de gato",
+    price: "1100 UY",
     image: conjunto3,
-    description: "Máscara de pestañas voluminosa"
+    description: "Peluche de gato suave y adorable para el entretenimiento de tu bebé",
   },
-  {
-    id: 7,
-    name: "Nail Polish",
-    price: 9.99,
-    image: lanilla,
-    description: "Esmalte de uñas brillante",
-    colors: ["Red", "Pink", "Purple", "Blue"]
-  },
-  {
-    id: 8,
-    name: "Lip Gloss",
-    price: 14.99,
-    image: conjunto2,
-    description: "Brillo labial hidratante",
-    colors: ["Clear", "Pink", "Nude"]
-  },
-  {
-    id: 9,
-    name: "Highlighter",
-    price: 22.99,
-    image: conjunto3,
-    description: "Iluminador facial premium",
-    colors: ["Gold", "Silver", "Rose Gold"]
-  },
-  {
-    id: 10,
-    name: "Eyeliner",
-    price: 13.99,
-    image: lanilla,
-    description: "Delineador de larga duración",
-    colors: ["Black", "Brown", "Navy"]
-  }
+  
 ];
