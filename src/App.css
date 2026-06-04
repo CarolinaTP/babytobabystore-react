@@ -1,0 +1,45 @@
+/* Estilos generales de la aplicación */
+.app {
+  min-height: 100vh;
+}
+
+/* Estilos para la notificación */
+.notification {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  animation: slideIn 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(400px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Estilos para el contenedor principal */
+.main-content {
+  padding: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .notification {
+    top: 70px;
+    right: 10px;
+    left: 10px;
+    width: auto;
+  }
+}

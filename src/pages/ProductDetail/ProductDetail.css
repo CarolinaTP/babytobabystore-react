@@ -1,0 +1,9 @@
+.detail-container {
+  display: flex;
+  gap: 40px;
+  padding: 40px;
+}
+
+.detail-container img {
+  width: 350px;
+}
